@@ -9,11 +9,13 @@ class User extends Controller
     /**
      * @return string
      */
-    public function index() {
+    public function index()
+    {
         return 'App\admin\controller\User';
     }
 
-    public function test() {
+    public function test()
+    {
         return 'test';
     }
 }
