@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ef92d59da07a9c00d0b036306f90d04",
+    "content-hash": "1527f6fdd4cf40ae8e104de90d8e4b36",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -262,6 +262,51 @@
                 }
             ],
             "time": "2017-12-31T16:32:22+00:00"
+        },
+        {
+            "name": "zzstudio/think-addons",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zz-studio/think-addons.git",
+                "reference": "3a83831125c59b4ab1a43f16859f328cb84fb77a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zz-studio/think-addons/zipball/3a83831125c59b4ab1a43f16859f328cb84fb77a",
+                "reference": "3a83831125c59b4ab1a43f16859f328cb84fb77a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "topthink/framework": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "byron",
+                    "email": "xiaobo.sun@qq.com"
+                }
+            ],
+            "description": "The ThinkPHP5.1 Addons Package",
+            "time": "2018-09-13T11:14:47+00:00"
         }
     ],
     "packages-dev": [],
