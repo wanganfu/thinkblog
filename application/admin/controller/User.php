@@ -2,20 +2,22 @@
 
 namespace app\admin\controller;
 
-use think\Controller;
+use app\facade\Auth;
+use app\common\controller\Base;
 
-class User extends Controller
+class User extends Base
 {
     /**
      * @return string
      */
     public function index()
     {
-        return 'App\admin\controller\User';
+        return 123;
     }
 
     public function test()
     {
-        return 'test';
+        $res = Auth::getGroups(1);
+        echo $res;
     }
 }

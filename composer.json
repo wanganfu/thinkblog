@@ -21,7 +21,8 @@
         "topthink/think-migration": "^2.0",
         "fzaninotto/faker": "^1.8",
         "firebase/php-jwt": "^5.0",
-        "zzstudio/think-addons": "^1.0"
+        "zzstudio/think-addons": "^1.0",
+        "5ini99/think-auth": "^1.0"
     },
     "autoload": {
         "psr-4": {

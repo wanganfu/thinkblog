@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1527f6fdd4cf40ae8e104de90d8e4b36",
+    "content-hash": "3e08acfbefcbfe4ef41cb200d568ffe8",
     "packages": [
+        {
+            "name": "5ini99/think-auth",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/5ini99/think-auth.git",
+                "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/5ini99/think-auth/zipball/f9f20d18b5e400d67312a7ca75e4dc35be630a4c",
+                "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\auth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "xiaobo.sun",
+                    "email": "xiaobo.sun@qq.com"
+                }
+            ],
+            "description": "auth package for thinkphp5",
+            "homepage": "https://github.com/5ini99/think-auth",
+            "time": "2016-11-02T06:26:09+00:00"
+        },
         {
             "name": "firebase/php-jwt",
             "version": "v5.0.0",
