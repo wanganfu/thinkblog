@@ -42,6 +42,7 @@ class Rule extends Controller
     public function read($id)
     {
         $res = db('auth_rule')->get($id);
+        $this->assign('res',$res);
         return $this->fetch();
     }
 
